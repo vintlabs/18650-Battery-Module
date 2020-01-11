@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AP9101CAK6-ANTRG1
+#
+DEF AP9101CAK6-ANTRG1 U 0 40 Y Y 1 L N
+F0 "U" -501 321 50 H V L BNN
+F1 "AP9101CAK6-ANTRG1" -501 -421 50 H V L BNN
+F2 "SOT95P280X140-6N" 0 0 50 H I L BNN
+F3 "Diodes Incorporated" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -500 300 -500 -300 N
+P 2 0 0 10 -500 -300 500 -300 N
+P 2 0 0 10 500 -300 500 300 N
+P 2 0 0 10 500 300 -500 300 N
+X VM 2 -700 100 200 R 40 40 0 0 I 
+X DO 1 -700 0 200 R 40 40 0 0 B 
+X CO 3 -700 -100 200 R 40 40 0 0 B 
+X VDD 5 700 200 200 L 40 40 0 0 W 
+X VSS 6 700 -200 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

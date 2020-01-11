@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BatteryModule)(type KiCad)(uri /home/pvint/Electronics/BatteryModule)(options "")(descr ""))
+  (lib (name Battery)(type KiCad)(uri /usr/local/src/kicad-footprints/Battery.pretty)(options "")(descr ""))
+)
